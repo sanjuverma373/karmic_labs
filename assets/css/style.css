@@ -68,6 +68,10 @@ p {
     padding-top: 35px;
 }
 
+.pt-8{
+    padding-top: 8px;
+}
+
 .pb-53 {
     padding-bottom: 53px;
 }
@@ -79,7 +83,9 @@ p {
 
 ul {
     padding-left: unset !important;
+    margin-bottom: unset !important;
 }
+
 
 .nav-font {
     color: var(--White, #FFF);
@@ -132,7 +138,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    opacity: 0.7;
+   
 }
 
 .sec-1h {
@@ -159,8 +165,8 @@ nav {
     background-color: #fff;
     stroke-width: 1px;
     position: absolute;
-    top: 48%;
-    left: 23%;    
+    top: 43%;
+    left: 29%;    
 }
 .small-line::after{
     content: '';
@@ -171,8 +177,8 @@ nav {
     background-color: #fff;
     stroke-width: 1px;
     position: absolute;
-    top: 56%;
-    left: 18%; 
+    top: 54%;
+    left: 28%; 
 }
 
 /* section-2 */
@@ -232,8 +238,8 @@ nav {
     height: 2px;
     transform: rotate(-4.516deg);
     position: absolute;
-    top: 4%;
-    left: 41%;
+    top: -32%;
+    left: 39%;
 }
 
 .sec-2h::after {
@@ -244,8 +250,8 @@ nav {
     height: 2px;
     transform: rotate(-4.516deg);
     position: absolute;
-    top: 17%;
-    left: 35%;
+    top: 111%;
+    left: 31%;
 }
 
 
@@ -283,7 +289,7 @@ nav {
     align-items: flex-start;
 
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.10);
+   
     background: rgba(255, 255, 255, 0.10);
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(8px);
@@ -321,8 +327,8 @@ nav {
     height: 2px;
     transform: rotate(-4.516deg);
     position: absolute;
-    top: 6%;
-    left: 41%;
+    top: -27%;
+    left: 39%;
 }
 
 .sec-3h::after {
@@ -333,8 +339,8 @@ nav {
     height: 2px;
     transform: rotate(-4.516deg);
     position: absolute;
-    top: 23%;
-    left: 36%;
+    top: 105%;
+    left: 30%;
 }
 
 .circle {
@@ -360,8 +366,8 @@ nav {
 .sec-4-bg {
     background-image: url(../images/sec-4-img-1.png);
     background-repeat: no-repeat;
-    min-height: 110vh;
     background-size: cover;
+    min-height: 110vh;
 }
 
 .sec-4h {
@@ -370,6 +376,9 @@ nav {
 }
 
 .pt-100 {
+    padding-top: 100px;
+}
+.pt-200 {
     padding-top: 100px;
 }
 
@@ -393,8 +402,8 @@ nav {
     height: 2px;
     transform: rotate(-4.516deg);
     position: absolute;
-    top: 10%;
-    left: 42%;
+    top: 30%;
+    left: 40%;
 }
 
 .sec-4h::after {
@@ -405,8 +414,8 @@ nav {
     height: 2px;
     transform: rotate(-4.516deg);
     position: absolute;
-    top: 20%;
-    left: 35%;
+    top: 60%;
+    left: 33%;
 }
 
 .blur-card {
@@ -501,8 +510,8 @@ nav {
     height: 2px;
     transform: rotate(-4.516deg);
     position: absolute;
-    top: 4%;
-    left: 41%;
+    top: -29%;
+    left: -10%;
 }
 
 .sec-5h::after {
@@ -513,8 +522,8 @@ nav {
     height: 2px;
     transform: rotate(-4.516deg);
     position: absolute;
-    top: 13%;
-    left: 36%;
+    top: 97%;
+    left: -62%;
 }
 
 .elips-5 {
@@ -543,13 +552,6 @@ nav {
 
 }
 
-
-
-
-
-
-
-
 @media (max-width:992px) {
     label[id="nav-icon"] {
         width: 30px;
@@ -568,7 +570,7 @@ nav {
     label[id="nav-icon"]>span {
         width: 100%;
         height: 5px;
-        background-color: orange;
+        background-color: white;
 
     }
 
@@ -682,6 +684,9 @@ nav {
     .pt-lg-20{
         padding-top: 20px;
     }
+    .pt-lg-24{
+        padding-top: 24px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -705,6 +710,9 @@ nav {
 
     .pt-md-20{
         padding-top: 20px;
+    }
+    .pt-md-24{
+        padding-top: 24px;
     }
 }
 
@@ -730,7 +738,10 @@ nav {
     }
 
     .pt-100 {
-        padding-top: 300px;
+        padding-top: 85px;
+    }
+    .pt-200{
+        padding-top: 290px;
     }
 
     .mt-173 {
